@@ -12,6 +12,7 @@
   justify-content: space-between;
   margin-bottom: -30px;
 }
+
 .more{
   display: flex;
   justify-content: flex-end;
@@ -68,6 +69,14 @@ table :hover:not(.active) {
   margin-top: 50px;
     display: flex;
     justify-content: space-between;
+}
+.Text{
+  position: absolute;
+	top:30%;
+	left: 20%;
+	transform: translate(-50%, -50%);
+	z-index: 10;
+
 }
 .controls{
   margin-top: 15px;

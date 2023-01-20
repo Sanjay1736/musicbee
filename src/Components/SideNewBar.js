@@ -113,7 +113,7 @@ const SideNewBar = () => {
             aria-expanded="false"
           >
             <img
-              src="https://github.com/mdo.png"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfqXPP6nsLzgdfqFxUVh9HwzVWdo1U_bbUtMC7nXZq&s"
               alt
               width={32}
               height={32}

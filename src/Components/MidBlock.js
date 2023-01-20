@@ -40,6 +40,14 @@ export const MidBlock = () => {
           src="https://oyster.ignimgs.com/mediawiki/apis.ign.com/hitman-3/5/5e/Dubai_Banner.png?width=1920"
         />
       </div>
+      <div className="Text">
+        <p>Artist</p>
+        <h1>On Top</h1>
+        <h1>of the world</h1>
+        <button className="btn">Play</button>
+        <button className="btn">Follow</button>
+      </div>
+
       <div>
         <div>
           <div className="playlist-Header">
