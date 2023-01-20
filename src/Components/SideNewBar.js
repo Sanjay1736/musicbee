@@ -33,7 +33,7 @@ const SideNewBar = () => {
               <svg className="bi me-2" width={16} height={16}>
                 <use xlinkHref="#speedometer2" />
               </svg>
-              <i class="fa-solid fa-square-bolt"></i>
+              <i class="fa-solid fa-film"></i>
               Trends
             </a>
           </li>
@@ -52,7 +52,7 @@ const SideNewBar = () => {
               <svg className="bi me-2" width={16} height={16}>
                 <use xlinkHref="#grid" />
               </svg>
-              <i class="fa-sharp fa-solid fa-objects-column"></i>
+              <i class="fa-solid fa-sun"></i>
               New and Notable
             </a>
           </li>
@@ -125,31 +125,7 @@ const SideNewBar = () => {
             className="dropdown-menu text-small shadow"
             aria-labelledby="dropdownUser2"
             style={{}}
-          >
-            <li>
-              <a className="dropdown-item" href="#">
-                New project...
-              </a>
-            </li>
-            <li>
-              <a className="dropdown-item" href="#">
-                Settings
-              </a>
-            </li>
-            <li>
-              <a className="dropdown-item" href="#">
-                Profile
-              </a>
-            </li>
-            <li>
-              <hr className="dropdown-divider" />
-            </li>
-            <li>
-              <a className="dropdown-item" href="#">
-                Sign out
-              </a>
-            </li>
-          </ul>
+          ></ul>
         </div>
       </div>
     </>

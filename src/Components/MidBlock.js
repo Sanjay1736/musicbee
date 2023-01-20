@@ -24,13 +24,16 @@ export const MidBlock = () => {
           />
         </div>
       </div>
-      <div>
+      <div className="Hot-topic">
         <div>
-          What's hot
-          <i className="fa fa-free-code-camp" aria-hidden="true"></i>
+          <div>
+            What's hot
+            <i className="fa fa-free-code-camp" aria-hidden="true"></i>
+          </div>
+          <h3>Trending</h3>
         </div>
-        <h3>Trending</h3>
       </div>
+      <div className="more">More</div>
       <div className="trending">
         <img
           className="trending-image"
@@ -41,7 +44,7 @@ export const MidBlock = () => {
         <div>
           <div className="playlist-Header">
             <h3>My Playlist</h3>
-            <h6>Show More</h6>
+            <h6>Show All</h6>
           </div>
           <table>
             <tr>
@@ -88,6 +91,50 @@ export const MidBlock = () => {
             </tr>
           </table>
         </div>
+      </div>
+      <div className="controls">
+        <div className="control-icons">
+          <div>
+            <button>
+              <i class="fa-regular fa-heart"></i>
+            </button>
+            <button>
+              <i class="fa-solid fa-music"></i>
+            </button>
+            <button>
+              <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+            </button>
+          </div>
+          <div>
+            <button>
+              <i class="fa fa-retweet" aria-hidden="true"></i>
+            </button>
+            <button>
+              <i class="fa fa-fast-backward" aria-hidden="true"></i>
+            </button>
+            <button>
+              <i class="fa fa-pause" aria-hidden="true"></i>
+            </button>
+            <button>
+              <i class="fa fa-fast-forward" aria-hidden="true"></i>
+            </button>
+            <button>
+              <i class="fa fa-random" aria-hidden="true"></i>
+            </button>
+          </div>
+          <div>
+            <button>
+              <i class="fa fa-volume-down" aria-hidden="true"></i>
+            </button>
+            <button>
+              <i class="fa-solid fa-music"></i>
+            </button>
+            <button>
+              <i class="fa fa-volume-up" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+        <audio className="audio" src="" controls />
       </div>
     </div>
   );
