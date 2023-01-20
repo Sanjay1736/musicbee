@@ -1,0 +1,38 @@
+.side-menu {
+  position: fixed;
+  background-color: white;
+  width: 300px;
+  height: 100%;
+}
+li {
+  list-style: none;
+  gap: 2rem;
+}
+.MenuList{
+  display: grid;
+  grid-gap: 0.5rem;
+}
+.MenuList li{
+    display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+.MenuList li.active{
+   background-color:rgb(10, 10, 10);
+  color: white;
+}
+.MenuList li:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+.bottom{
+   position: relative;
+}
+ .bottom-section{
+    border-top: solid 1px black;
+    width: 300px;
+    height: 150px;
+    position: relative;
+    bottom:0;
+}
