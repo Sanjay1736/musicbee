@@ -54,3 +54,7 @@ table :hover:not(.active) {
   color: black;
   height: 20px;
 }
+.playlist-Header{
+    display: flex;
+    justify-content: space-between;
+}

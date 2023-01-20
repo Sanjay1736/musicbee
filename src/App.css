@@ -10,3 +10,7 @@ ul {
 body {
    background-color: rgb(227, 238, 242);
 }
+.App{
+  display: flex;
+  justify-content: space-between;
+}
