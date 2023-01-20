@@ -5,14 +5,12 @@
     background-color: rgb(227, 238, 242);
     width: 1000px;
     height: 100vh;
-     display: flex;
-    justify-content: space-between;
+}
+.inner-container{
+    display:flex;
+    justify-content:space-between;
     align-items: space-around;
 }
-/* .container{
-    display: flex;
-    justify-content: space-evenly;
-} */
 button :hover:not(.active){
     background-color:rgb(108, 89, 89);
      color: white;
@@ -29,5 +27,18 @@ button{
     border-radius: 15px;
 }
 .trending{
-    margin-left: 300px;
+    /* margin-left: 300px; */
+    margin-top: 20px;
+    width:600px;
+    height:250px;
+    /* background-image: url(https://www.thescienceofpsychotherapy.com/wp-content/uploads/2019/03/bigstock-221111905.jpg) ; */
+    /* object-fit:fill; */
 }
+.trending-image{
+     width:980px;
+    height:250px;
+}
+/* .card{
+     margin-left: 300px;
+    padding: 1px 16px;
+} */

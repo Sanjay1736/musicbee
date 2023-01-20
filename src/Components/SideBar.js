@@ -42,16 +42,17 @@ const SideBar = () => {
               <i class="fa-regular fa-star"></i>Albums
             </li>
           </div>
-          <div className="bottom">
-            <section className="bottom-section">
-              <h5>
-                <b>Ceptari Tysa</b>
-              </h5>
-            </section>
+          <div className="MenuList">
+            <div className="bottom">
+              <div className="bottom-section">
+                <h5>
+                  <b>Ceptari Tysa</b>
+                </h5>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-
     </>
   );
 };
