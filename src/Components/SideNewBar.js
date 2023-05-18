@@ -24,7 +24,7 @@ const SideNewBar = () => {
               <svg className="bi me-2" width={16} height={16}>
                 <use xlinkHref="#home" />
               </svg>
-              <i class="fa-solid fa-house"></i>
+              <i className="fa-solid fa-house"></i>
               Home
             </a>
           </li>
@@ -33,7 +33,7 @@ const SideNewBar = () => {
               <svg className="bi me-2" width={16} height={16}>
                 <use xlinkHref="#speedometer2" />
               </svg>
-              <i class="fa-solid fa-film"></i>
+              <i className="fa-solid fa-film"></i>
               Trends
             </a>
           </li>
@@ -42,7 +42,7 @@ const SideNewBar = () => {
               <svg className="bi me-2" width={16} height={16}>
                 <use xlinkHref="#table" />
               </svg>
-              <i class="fa-solid fa-compass"></i>
+              <i className="fa-solid fa-compass"></i>
               Feed
             </a>
           </li>
@@ -52,7 +52,7 @@ const SideNewBar = () => {
               <svg className="bi me-2" width={16} height={16}>
                 <use xlinkHref="#grid" />
               </svg>
-              <i class="fa-solid fa-sun"></i>
+              <i className="fa-solid fa-sun"></i>
               New and Notable
             </a>
           </li>
@@ -61,7 +61,7 @@ const SideNewBar = () => {
               <svg className="bi me-2" width={16} height={16}>
                 <use xlinkHref="#people-circle" />
               </svg>
-              <i class="fa-solid fa-calendar-days"></i>
+              <i className="fa-solid fa-calendar-days"></i>
               Realease Calender
             </a>
           </li>
@@ -70,7 +70,7 @@ const SideNewBar = () => {
               <svg className="bi me-2" width={16} height={16}>
                 <use xlinkHref="#people-circle" />
               </svg>
-              <i class="fa-solid fa-ticket"></i>
+              <i className="fa-solid fa-ticket"></i>
               Events
             </a>
           </li>
@@ -80,7 +80,7 @@ const SideNewBar = () => {
               <svg className="bi me-2" width={16} height={16}>
                 <use xlinkHref="#grid" />
               </svg>
-              <i class="fa-sharp fa-solid fa-heart"></i>
+              <i className="fa-sharp fa-solid fa-heart"></i>
               Favaorite Songs
             </a>
           </li>
@@ -89,7 +89,7 @@ const SideNewBar = () => {
               <svg className="bi me-2" width={16} height={16}>
                 <use xlinkHref="#people-circle" />
               </svg>
-              <i class="fa-solid fa-user-group"></i>
+              <i className="fa-solid fa-user-group"></i>
               Artist
             </a>
           </li>
@@ -98,7 +98,7 @@ const SideNewBar = () => {
               <svg className="bi me-2" width={16} height={16}>
                 <use xlinkHref="#people-circle" />
               </svg>
-              <i class="fa-regular fa-star"></i>
+              <i className="fa-regular fa-star"></i>
               Albums
             </a>
           </li>

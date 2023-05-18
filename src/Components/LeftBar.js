@@ -54,7 +54,7 @@ const LeftBar = () => {
                 </div>
               </div>
               <div>
-                <i class="fa-solid fa-ellipsis"></i>
+                <i className="fa-solid fa-ellipsis"></i>
               </div>
             </div>
             <div className="artist">
@@ -72,7 +72,7 @@ const LeftBar = () => {
                 </div>
               </div>
               <div>
-                <i class="fa-solid fa-ellipsis"></i>
+                <i className="fa-solid fa-ellipsis"></i>
               </div>
             </div>
             <div className="artist">
@@ -88,7 +88,7 @@ const LeftBar = () => {
                 <p>50 songs in Library</p>
               </div>
               <div>
-                <i class="fa-solid fa-ellipsis"></i>
+                <i className="fa-solid fa-ellipsis"></i>
               </div>
             </div>
             <div className="artist">
@@ -106,7 +106,7 @@ const LeftBar = () => {
                 </div>
               </div>
               <div>
-                <i class="fa-solid fa-ellipsis"></i>
+                <i className="fa-solid fa-ellipsis"></i>
               </div>
             </div>
           </div>

@@ -104,41 +104,41 @@ export const MidBlock = () => {
         <div className="control-icons">
           <div>
             <button>
-              <i class="fa-regular fa-heart"></i>
+              <i className="fa-regular fa-heart"></i>
             </button>
             <button>
-              <i class="fa-solid fa-music"></i>
+              <i className="fa-solid fa-music"></i>
             </button>
             <button>
-              <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
-            </button>
-          </div>
-          <div>
-            <button>
-              <i class="fa fa-retweet" aria-hidden="true"></i>
-            </button>
-            <button>
-              <i class="fa fa-fast-backward" aria-hidden="true"></i>
-            </button>
-            <button>
-              <i class="fa fa-pause" aria-hidden="true"></i>
-            </button>
-            <button>
-              <i class="fa fa-fast-forward" aria-hidden="true"></i>
-            </button>
-            <button>
-              <i class="fa fa-random" aria-hidden="true"></i>
+              <i className="fa-solid fa-up-right-and-down-left-from-center"></i>
             </button>
           </div>
           <div>
             <button>
-              <i class="fa fa-volume-down" aria-hidden="true"></i>
+              <i className="fa fa-retweet" ></i>
             </button>
             <button>
-              <i class="fa-solid fa-music"></i>
+              <i className="fa fa-fast-backward" ></i>
             </button>
             <button>
-              <i class="fa fa-volume-up" aria-hidden="true"></i>
+              <i className="fa fa-pause" ></i>
+            </button>
+            <button>
+              <i className="fa fa-fast-forward"></i>
+            </button>
+            <button>
+              <i className="fa fa-random" ></i>
+            </button>
+          </div>
+          <div>
+            <button>
+              <i className="fa fa-volume-down" aria-hidden="true"></i>
+            </button>
+            <button>
+              <i className="fa-solid fa-music"></i>
+            </button>
+            <button>
+              <i className="fa fa-volume-up" aria-hidden="true"></i>
             </button>
           </div>
         </div>
